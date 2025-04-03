@@ -1,0 +1,183 @@
+:root {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    color: #A79277;
+    margin-left: 20px;
+}
+
+.right {
+    margin-right: 50px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    background-color: #EAD8C0;
+}
+
+.main-container {
+    background-color: #FFF2E1;
+    min-height: calc(100vh - 200px);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+    color: #A79277;
+    padding-top: 100px;
+    
+}
+
+#cart-container {
+    height: min(60vh, 1000px);
+    width: max(25vw, 500px);
+    border-radius: 20px;
+    border: 8px solid #A79277;
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#cart-buttons {
+    margin-top: 30px;
+    width: max(25vw, 500px);
+    display: flex;
+    justify-content: end;
+}
+
+#confirm {
+    color: #EAD8C0;
+    background-color: #A79277;
+    border: 2px solid #A79277;
+    font-size: 20px;
+    padding: 20px 50px;
+    border-radius: 10px;
+}
+
+#confirm:hover {
+    background-color: #EAD8C0;
+    color: #A79277;
+}
+
+.card-container {
+    width: max(25vw, 600px);
+    height: 210px;
+    background-color: #A79277;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.game-data {
+    color: #FFF2E1;
+}
+
+.main-data {
+    display: flex;
+    align-items: start;
+    gap: 20px;
+}
+
+.card-btns {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+    padding-top: 10px;
+    
+}
+
+.add-btn {
+    color: #A79277;
+    background-color: #EAD8C0;
+    border: 2px solid #EAD8C0;
+    font-size: 20px;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+.add-btn:hover {
+    background-color: #A79277;
+    color: #EAD8C0;
+}
+
+.view-btn {
+    color: #EAD8C0;
+    background-color: #A79277;
+    border: 2px solid #EAD8C0;
+    font-size: 20px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.view-btn:hover {
+    background-color: #EAD8C0;
+    color: #A79277;
+}
+
+.game-title {
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.genra {
+    margin: 0px;
+}
+
+.release-date {
+    margin: 2px;
+}
+
+.product-container {
+    width: 70vw;
+    height: min(567px, 60vh);
+    background-color: #A79277;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-title{
+    color: #FFF2E1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-top: 2.5%;
+}
+
+.meta-data{
+    color: #FFF2E1;
+}
+
+.game-img {
+    height: 100px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.pricing {
+    height: 120px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    font-size: 24px;
+}
+
+.card-img {
+    max-height: 150px;
+    width: min(auto, 150);
+}
+
+.price-tag {
+    color: #FFF2E1;
+}
