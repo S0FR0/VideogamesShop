@@ -36,7 +36,7 @@ function App() {
     ):(
       <>
       <NavBar
-        amount = {cart.amount}
+        shopCart = {cart}
       />
       <div className="main-container">
         {fetchedData.map((item) =>

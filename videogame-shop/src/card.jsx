@@ -4,14 +4,12 @@ const Card = (props) => {
     const {backgroundImg, genra, id, name, releaseDate, cart, setCart} = props;
 
     const handleClick = () => {
-        console.log(cart)
         if (!cart.title) {
             setCart({
                 title: [name],
                 amount: [1],
                 price: [60],
             });
-            console.log(cart.price)
             return
         }
 
@@ -31,7 +29,6 @@ const Card = (props) => {
                 price: [...cart.price, 60],
             });
         }
-        console.log(cart.price)
     };
 
     return (
